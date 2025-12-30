@@ -1,0 +1,270 @@
+* {
+  color: #333333;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+section, footer {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.Dark {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.bigTitle {
+  font-size: 91px !important;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.bigTitleMobile {
+  font-size: 50px !important;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.text2 {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.colored {
+  color: #FA4C03 !important;
+}
+
+.midText {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(7.1999998093px);
+          backdrop-filter: blur(7.1999998093px);
+}
+
+.nav-links {
+  font-size: 14px;
+}
+
+.primaryBtn {
+  background-color: #FA4C03 !important;
+  color: #FFFFFF !important;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.grey {
+  color: #BBBBBB;
+}
+
+#Hero {
+  background-color: #D7D7D7;
+}
+#Hero .container {
+  background: url(../Images/BackGround.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #FFFFFF !important;
+  position: relative;
+}
+#Hero .container .text {
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+#Hero .container .topDesign {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#Hero .container .barCode {
+  position: absolute;
+  bottom: -1%;
+  right: 22.5%;
+}
+#Hero .container .barCode img {
+  width: 95%;
+}
+#Hero .bigTextContainer {
+  position: relative;
+}
+#Hero .bigTextContainer .cross {
+  position: absolute;
+}
+#Hero .bigTextContainer .right {
+  right: 1%;
+}
+#Hero .bigTextContainer .left {
+  left: -1%;
+}
+#Hero .bigTextContainer .downLeft {
+  left: 0;
+  bottom: 0;
+}
+#Hero .bigTextContainer .downRight {
+  right: 1%;
+  bottom: 0;
+}
+
+#HeroMobile {
+  background-color: #C23B02 !important;
+}
+#HeroMobile .text {
+  color: #FFFFFF !important;
+}
+#HeroMobile .gorilla {
+  width: 20% !important;
+}
+#HeroMobile .bigTextContainer {
+  position: relative;
+}
+#HeroMobile .bigTextContainer .cross {
+  position: absolute;
+}
+#HeroMobile .bigTextContainer .right {
+  right: 1%;
+}
+#HeroMobile .bigTextContainer .left {
+  left: -1%;
+}
+#HeroMobile .bigTextContainer .downLeft {
+  left: 0;
+  bottom: 0;
+}
+#HeroMobile .bigTextContainer .downRight {
+  right: 1%;
+  bottom: 0;
+}
+
+.mainTitle {
+  font-size: 128px;
+  font-weight: 400;
+}
+
+.floters {
+  position: absolute;
+}
+
+.cross1 {
+  top: 5px;
+}
+
+.cross2 {
+  top: 5px;
+  right: 0px;
+}
+
+.cross3 {
+  bottom: 5px;
+  right: 0px;
+}
+
+.cross4 {
+  bottom: 5px;
+}
+
+.linkTab {
+  border: 1px solid #E8E8E8;
+  border-radius: 30px;
+}
+
+#Projects {
+  background-image: url(../Images/SelBG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Projects .mainTitle {
+  color: #FFFFFF;
+}
+#Projects .nav-link {
+  font-size: 20px;
+}
+#Projects .nav-pills .nav-link.active, #Projects .nav-pills .show > .nav-link {
+  color: #FFFFFF !important;
+  background: none !important;
+}
+#Projects .nav-pills .nav-link {
+  color: rgba(215, 215, 215, 0.1725490196) !important;
+}
+#Projects .tab-pane {
+  color: #FFFFFF !important;
+}
+#Projects .img-Container {
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Contact {
+  background-image: url(../Images/contactCircle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#Contact .contactContent, #Contact h5 {
+  color: #FFFFFF !important;
+}
+#Contact h5 {
+  font-weight: 400;
+}
+#Contact .contactCard {
+  background-color: #FA4C03;
+  color: #000000 !important;
+  border-radius: 24px;
+}
+#Contact .contactCard a, #Contact .contactCard .ContactText {
+  text-decoration: none;
+  color: #000000 !important;
+}
+#Contact .contactCard .cardTitle {
+  font-size: 32px;
+  font-weight: 400;
+}
+#Contact .contactCard .ContactText {
+  font-size: 20px;
+}
+
+footer {
+  height: 100vh;
+  background-color: #C23B02;
+  background-image: url(../Images/footerBg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer p {
+  color: #D7D7D7;
+}
+footer .kiro {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media (min-width: 400px) {
+  .mainTitle {
+    font-size: 74px;
+  }
+  .midText {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: 300;
+  }
+}/*# sourceMappingURL=index.css.map */

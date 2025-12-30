@@ -1,0 +1,312 @@
+$primaryColor: #FA4C03;
+$TextColor: #333333;
+$White: #FFFFFF;
+$font: "Montserrat", sans-serif;
+$backgroundColor: #D7D7D7;
+
+*{
+    color: $TextColor;
+    font-family: $font !important;
+}
+
+section, footer{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.Dark{
+    background-color: $TextColor;
+    color: $White;
+}
+
+
+    
+//fontTypes
+.bigTitle{
+    font-size: 91px !important;
+    color: $White;
+    font-weight: 300;
+}
+
+.bigTitleMobile{
+    font-size: 50px !important;
+    color: $White;
+    font-weight: 300;
+}
+
+.text2{
+    font-size: 12px;
+    color: $White;
+}
+
+.text{
+    font-size: 16px;
+}
+
+.colored{
+        color: $primaryColor !important;
+}
+
+.midText{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+nav{
+    background: rgba(255, 255, 255, 0.05);
+backdrop-filter: blur(7.199999809265137px);
+}
+
+.nav-links{
+    font-size: 14px;
+}
+
+//btn
+.primaryBtn{
+ background-color: $primaryColor !important;
+ color: $White !important;
+} 
+
+.title{
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.grey{
+    color: #BBBBBB;
+}
+
+
+//Hero
+#Hero{
+    background-color: $backgroundColor;
+
+    .container{
+        background: url(../Images/BackGround.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: $White !important;
+        position: relative;
+
+        .text{
+            font-size: 14px;
+            color: $White;
+            font-weight: 300;
+        }
+
+        .topDesign{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+    .barCode{
+        position: absolute;
+        bottom: -1%;
+        right: 22.5%;
+        img{
+            width: 95%;
+        }
+    }
+    }
+
+.bigTextContainer{
+    position: relative;
+    .cross{
+        position: absolute;
+    }
+    .right{
+        right: 1%;
+    }
+      .left{
+        left: -1%;
+    }
+
+    .downLeft{
+        left: 0;
+        bottom: 0;
+    }
+     .downRight{
+        right: 1%;
+        bottom: 0;
+    }
+}
+}
+
+//Hero mobile
+#HeroMobile{
+    background-color: #C23B02 !important;
+    
+
+    .text{
+    color: $White !important;
+    }
+
+    .gorilla{
+        width: 20% !important;
+    }
+
+    .bigTextContainer{
+    position: relative;
+    .cross{
+        position: absolute;
+    }
+    .right{
+        right: 1%;
+    }
+      .left{
+        left: -1%;
+    }
+
+    .downLeft{
+        left: 0;
+        bottom: 0;
+    }
+     .downRight{
+        right: 1%;
+        bottom: 0;
+    }
+}
+
+}
+
+//About us
+.mainTitle{
+    font-size: 128px;
+    font-weight: 400;
+}
+
+.floters{
+    position: absolute;
+}
+
+ .cross1{
+    top: 5px;
+ }
+  .cross2{
+    top: 5px;
+    right: 0px;
+ }
+
+   .cross3{
+    bottom: 5px;
+    right: 0px;
+ }
+
+  .cross4{
+    bottom: 5px;
+ }
+
+ //skills
+ .linkTab{
+    border:1px solid #E8E8E8;
+    border-radius: 30px;
+    
+ }
+
+ //Projects
+ #Projects{
+    background-image: url(../Images/SelBG.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    .mainTitle{
+        color: $White;
+    }
+
+    .nav-link{
+        font-size: 20px;
+    }
+       .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            color: $White !important;
+            background: none !important;
+        }
+
+        .nav-pills .nav-link{
+            color: #d7d7d72c !important;
+        }
+
+        .tab-pane{
+            color: $White !important;
+        }
+
+        .img-Container{
+            width: 100%;
+            height:800px ;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+ }
+
+ //Contact
+
+#Contact{
+    background-image: url(../Images/contactCircle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+.contactContent, h5{
+     color: $White !important;
+}
+h5{
+    font-weight: 400;
+}
+
+.contactCard{
+    background-color: $primaryColor;
+    color: #000000 !important;
+    border-radius: 24px;
+    a , .ContactText{
+        text-decoration: none;
+            color: #000000 !important;
+
+    }
+
+    .cardTitle{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .ContactText{
+        font-size: 20px;
+    }
+}
+}
+
+//footer 
+footer{
+    height: 100vh;
+    background-color: #C23B02;
+    background-image: url(../Images/footerBg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p{
+        color: $backgroundColor;
+    }
+
+    .kiro{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+
+//Mobile
+@media (min-width: 400px) {
+.mainTitle{
+    font-size: 74px;
+}
+.midText{
+    font-size: 24px; 
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 300;
+}
+}
